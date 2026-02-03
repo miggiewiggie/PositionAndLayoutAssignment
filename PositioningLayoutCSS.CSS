@@ -2,28 +2,31 @@
     position: fixed;
     height: 100%;
     width: 15%;
-    margin-top: -40px;
     padding: 15px;
+    top: 0;
     left: 0;
     background-color: grey;
-    z-index: 10;
-
+    z-index: 15;
+    text-align: center;
 }
 
 h1, h2, h3, p, a{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-h1{
+main h1{
     position: relative;
     margin-left: 18%;
     margin-top: 100px;
+    font-size: 30px;
+    padding: 15px;
 
 }
 
 header p{
     font-weight: bold;
-    font-size: 125%;
+    font-size: 150%;
+    text-align: center;
 }
 
 header{
@@ -31,12 +34,18 @@ header{
     position: fixed;
     z-index: 10;
     top: 0;
-    margin-left: -8px;
+    margin-left: 120px;
     width: 100%;
 }
 
 header nav{
     padding: 5px;
+    text-align: center;
+}
+nav button{
+    border-color: white;
+    width: 150px;
+   
 }
 
 #container{
@@ -67,6 +76,12 @@ header nav{
     font-weight: bold;
     font-size: 125%;
     text-align: right;
+    right:0;
+    bottom:0;
+    background-color: aquamarine;
+    padding:10px;
+    z-index: 10;
+    position:fixed;
 }
 
 footer{
